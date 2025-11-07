@@ -22,16 +22,21 @@ It demonstrates backend–AI integration using Spring Boot and Gemini API, focus
 
 📦 Modular design for easy extension to other AI APIs
 
-🏗️ Project Architecture
-Frontend (HTML + JavaScript)
-        │
-        ▼
-Spring Boot Backend (REST API)
-        │
-        ▼
-Gemini API (AI Feedback Generation)
+🏗️ Project Architecture<br/>
 
-🧰 Tech Stack
+Frontend (HTML + JavaScript)<br/>
+
+        │
+        ▼
+Spring Boot Backend (REST API)<br/>
+
+        │
+        ▼
+Gemini API (AI Feedback Generation)<br/>
+
+
+🧰 Tech Stack<br/>
+
 Layer	Technology
 Backend	Java 17, Spring Boot 3.x
 Frontend	HTML, CSS, JavaScript
@@ -39,7 +44,8 @@ AI Integration	Gemini API (Google Generative AI)
 Build Tool	Maven
 Testing	Postman / Curl
 Version Control	Git, GitHub
-🧩 API Workflow
+🧩 API Workflow<br/>
+
 
 User Input: The frontend captures a code snippet from a text area.
 
@@ -59,18 +65,27 @@ Frontend Display: The feedback appears in a styled result box.
 
 🚀 How to Run Locally
 1️⃣ Clone Repository
-git clone https://github.com/yourusername/AI-Code-Review-System.git
+git clone https://github.com/RakeshKayal/code-Review-System.git<br/>
 cd AI-Code-Review-System
+<br/>
 
 2️⃣ Configure Gemini API Key
+<br/>
 
-Create a .env or application.properties file:
+
+Create a .env or application.properties file:<br/>
 
 GEMINI_API_KEY=your_api_key_here
+<br/>
+
 
 3️⃣ Run Spring Boot App
+<br/>
+
 mvn spring-boot:run
+<br/>
 
 
-Backend will start on:
+Backend will start on:<br/>
+
 http://localhost:8080
